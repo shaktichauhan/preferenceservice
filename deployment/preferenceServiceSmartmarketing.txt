@@ -1,0 +1,13 @@
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/preference/epipe/EpipeService.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/preference/epipe/impl/EpipeServiceImpl.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/preference/rest/resource/PreferenceResource.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/preference/service/PreferenceService.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/preference/service/impl/PreferenceServiceImpl.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/preference/dto/SmartMarketingDetailsDTO.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/preference/dto/SmartMarketingDTO.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/WEB-INF/classes/hibernate.cfg.xml
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/WEB-INF/lib/servlet-api.jar
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/WEB-INF/lib/epipe.jar
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/WEB-INF/lib/rddotcom.jar
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/jar/epipe.jar
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/jar/rddotcom.jar

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ Reader's Digest Digital Business Group
+
+ Copyright 2007 Reader's Digest, Inc. All Rights Reserved.
+
+ This software is the proprietary information of Reader's Digest, Inc.
+ Use is subject to license terms.
+-->
+
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.readersdigest.preference.domain.Preference" table="preference" >
+        <id name="id" type="long" unsaved-value="null">
+            <column name="preference_service_id" />
+            <generator class="identity" />
+        </id>
+       	<version name="version" column="version"/>
+       	<property name="firstName" column="first_name"/>
+        <property name="middleName" column="middle_name"/>
+        <property name="lastName" column="last_name"/>
+        <property name="email" column="email"/>
+        <component name="billingAddress" class="com.readersdigest.preference.domain.Address">
+			<property name="address1" column="billing_address1"/>
+			<property name="address2" column="billing_address2"/>
+			<property name="address3" column="billing_address3"/>
+        	<property name="city" column="billing_city"/>
+        	<property name="postalCode" column="billing_postal_code"/>
+        	<property name="countryCode" column="billing_country_code"/>
+      	</component>	
+		<property name="sourceId" column="source_id"/>
+		<property name="optIn" column="opt_in"/>
+		<property name="preferenceId" column="preference_id"/>
+		<property name="trackingId" column="tracking_id"/>
+		<property name="dateOfBirth" column="date_of_birth"/>
+		<property name="epid" column="epid"/>
+		<property name="serviceMethod" column="service_method"/>
+		<property name="createdOn" type="timestamp" not-null="true" update="false">
+            <column name="created_on" length="0" />
+        </property>
+        <property name="updatedOn" type="timestamp" not-null="true">
+            <column name="updated_on" length="0"/>
+        </property>	
+   </class>
+</hibernate-mapping>

@@ -1,0 +1,8 @@
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/onepass/service/impl/OnePassAuthServiceImpl.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/onepass/service/impl/OnePassServiceImpl.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/onepass/util/StringUtils.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/WEB-INF/classes/com/readersdigest/onepass/OnePassResources.properties
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/jsp/onepass/emailValidationConfirmation.jsp
+
+
+

@@ -1,0 +1,6 @@
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/META-INF/persistence.xml
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/META-INF/persistence.xml
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/WEB-INF/classes/META-INF/persistence.xml
+
+
+

@@ -1,0 +1,2 @@
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/jsp/onepass/resetPasswordConfirmation.jsp
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/image/RDA_iPad_RDLogo.jpg

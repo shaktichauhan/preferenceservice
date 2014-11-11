@@ -1,0 +1,5 @@
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/onepass/db/Email.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/onepass/db/Member.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/onepass/db/MemberInfo.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/onepass/db/PostalAddress.java
+

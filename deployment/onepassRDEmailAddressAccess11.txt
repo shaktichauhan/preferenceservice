@@ -1,0 +1,9 @@
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/onepass/action/OnePassForgetPasswordAction.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/onepass/service/impl/OnePassServiceImpl.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/jsp/onepass/onePassForgotPassword.jsp
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/jsp/onepass/onePassForgotPassword_Kindle.jsp
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/WEB-INF/classes/com/readersdigest/onepass/OnePassResources.properties
+
+
+
+

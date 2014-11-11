@@ -1,0 +1,10 @@
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/onepass/service/impl/ServiceValidator.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/onepass/service/impl/OnePassServiceImpl.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/onepass/action/OnePassRegistrationAction.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/onepass/action/OnePassProfileUpdateAction.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/WEB-INF/web.xml
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/jsp/onepass/completeRegistration_iPAD.jsp
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/jsp/onepass/onePassProfileUpdate_iPAD.jsp
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/jsp/onepass/onePassRegistration_iPAD.jsp
+
+

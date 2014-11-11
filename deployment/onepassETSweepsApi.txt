@@ -1,0 +1,3 @@
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/sweepapi/rest/OnePassSweepsResource.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/sweepapi/service/impl/OnePassSweepApiServiceImpl.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/sweepapi/service/OnePassSweepApiService.java

@@ -1,0 +1,3 @@
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/onepass/client/impl/OnePassETTummyServiceImpl.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/onepass/client/impl/OnePassTummyServiceImpl.java
+

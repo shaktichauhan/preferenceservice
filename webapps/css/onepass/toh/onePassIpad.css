@@ -1,0 +1,293 @@
+html,body,h1,h3,form,fieldset,legend,ol,li {
+	margin: 0;
+	padding: 0;
+}
+
+#outer-container{
+	background: #ffffff;
+	color: #111111;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	padding: 5px 65px 5px 65px;
+}
+
+body {
+    background: #ffffff;
+	color: #231f20;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:20px
+	}
+	
+	a:link {
+	text-decoration:none;
+	color:#231f20;
+	}
+	
+	a:visited {
+	text-decoration:none;
+	color:#231f20;
+	}
+	
+	a:hover {
+	text-decoration:none;
+	color:#231f20;
+	}
+	
+	a:active {
+	text-decoration:none;
+	color:#231f20;
+	}
+
+
+		
+h3 {
+	font-family:Verdana, Geneva, sans-serif;
+	font-weight:bold;
+	font-size: 24px;
+	margin-top: 2px;
+	text-align:center;
+	color: #383838;
+	}
+	
+li.errors {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 26px;
+	color: #cc0000;
+	font-weight: bold;
+	margin-left: 50px;
+}
+	
+p {
+		line-height:24px;
+		padding-bottom:5px;}
+
+#onePassDigReg1 {
+	/*background: #e1effc;*/
+	background: #edeced;
+	border-color: #e2e2e1;
+	border-style: solid;
+	border-width: 2px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+	counter-reset: fieldsets;
+	padding: 20px;
+	width: auto;
+	margin-bottom:2px;
+	margin-top:5px;
+}
+
+
+#onePassDigReg {
+	/*background: #e1effc;*/
+	background: #edeced;
+	border-color: #e2e2e1;
+	border-style: solid;
+	border-width: 2px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+	counter-reset: fieldsets;
+	padding: 5px 20px 5px 20px;
+	width: auto;
+	margin-bottom:2px;
+}
+
+#onePassDigReg fieldset {
+	border: none;
+	margin-bottom: 30px;
+	/*max width code added for landscape view*/
+	max-width: 700px;
+}
+
+#onePassDigReg fieldset:last-of-type {
+	margin-bottom: 0;
+}
+
+#onePassDigReg legend {
+	color: #231f20;
+	font-size: 16px;
+	font-weight: bold;
+	padding-bottom: 10px;
+	text-shadow: 0 1px 1px #c0d576;
+}
+
+#onePassDigReg>fieldset>legend:before {
+	content: "Step " counter(fieldsets) ": ";
+	counter-increment: fieldsets;
+}
+
+#onePassDigReg fieldset fieldset legend {
+	color: #111111;
+	font-size: 16px;
+	font-weight: normal;
+	padding-bottom: 0;
+}
+
+#onePassDigReg ol li {
+	background: #c2c2c2;
+	border-color: #999999;
+	border-style: solid;
+	border-width: 2px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+	line-height: 35px;
+	list-style: none;
+	padding: 5px 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 15px;
+	font-weight:bold;
+}
+
+#onePassDigReg ol.optbox li {
+				background: #c2c2c2;
+				border-color: #999999;
+				border-style: solid;
+				border-width: 2px;
+				-moz-border-radius: 5px;
+				-webkit-border-radius: 5px;
+				-khtml-border-radius: 5px;
+				border-radius: 5px;
+				line-height: 24px;
+				list-style: none;
+				padding: 5px 10px;
+				margin-bottom: 15px;
+				font-weight:normal;
+				}
+
+#onePassDigReg ol ol li {
+	background: none;
+	border: none;
+	float: left;
+}
+
+#onePassDigReg label {
+	float: left;
+	font-size: 16px;
+	width: 45%;
+}
+
+#onePassDigReg fieldset fieldset label {
+	background: none no-repeat left 50%;
+	line-height: 20px;
+	padding: 0 0 0 30px;
+	width: auto;
+}
+
+#onePassDigReg select {
+	background: #ffffff;
+	border: none;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+	font: italic 16px Verdana, Arial, Helvetica, sans-serif;
+	color: #999999;
+	outline: none;
+	padding: 8px 8px 8px 0;
+	text-indent: 4px;
+	line-height: 32px;
+	width: 50%;
+}
+
+#onePassDigReg select:focus {
+	background: #eaeaea;
+}
+
+#onePassDigReg input:not   ([type=radio]   ),form#onePassDigReg textarea,form#onePassDigReg text
+	{
+	background: #ffffff;
+	border: none;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+	font: italic 16px Verdana, Arial, Helvetica, sans-serif;
+	color: #A5A5A5;
+	outline: none;
+	padding: 8px;
+	width: 50%;
+}
+
+#onePassDigReg input:not   ([type=submit]   ):focus,form#onePassDigReg textarea:focus
+	{
+	background: #eaeaea;
+}
+
+#onePassDigReg input[type=text] {
+	background: #ffffff;
+	border: none;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+	font: italic 16px Verdana, Arial, Helvetica, sans-serif;
+	color: #A5A5A5;
+	outline: none;
+	padding: 8px;
+	width: 50%;
+}
+
+#onePassDigReg input:   ([type=text]    ):focus {
+	background: #eaeaea;
+}
+
+#onePassDigReg input[type=password] {
+	background: #ffffff;
+	border: none;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+	font: italic 16px Verdana, Arial, Helvetica, sans-serif;
+	color: #A5A5A5;
+	outline: none;
+	padding: 8px;
+	width: 50%;
+}
+
+#onePassDigReg input:   ([type=password]    ):focus {
+	background: #eaeaea;
+}
+
+#onePassDigReg input[type=checkbox] {
+	display: inline-block;
+	font-size: 16px;
+	line-height: 1em;
+	margin: 0 0.25em 0 0;
+	padding: 0;
+	width: 1.25em;
+	height: 1.25em;
+	-webkit-border-radius: 0.25em;
+	vertical-align: text-top;
+}
+
+#onePassDigReg button {
+			width:340px;
+				height:52px;
+				background: #c2c2c2;
+				border-color: #999999;
+				border-style: solid;
+				-moz-border-radius: 5px;
+				-webkit-border-radius: 5px;
+				-khtml-border-radius: 5px;
+				border-radius: 5px;
+				color: #231f20;
+				display: block;
+				font: 18px Verdana, Arial, Helvetica, sans-serif;
+				margin: 0 auto;
+				text-align:center;
+				padding: 5px 10px;
+				font-weight:bold;
+				text-transform: uppercase;
+				}
+}
+
+#onePassDigReg button:hover {
+	cursor: pointer;
+}

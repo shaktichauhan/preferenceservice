@@ -1,0 +1,7 @@
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/onepass/action/OnePassForgetPasswordAction.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/onepass/service/impl/OnePassAuthServiceImpl.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/jsp/onepass/onePassForgotPassword.jsp
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/jsp/onepass/onePassResetPassword.jsp
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/jsp/onepass/resetPasswordConfirmation.jsp
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/WEB-INF/struts-config.xml
+

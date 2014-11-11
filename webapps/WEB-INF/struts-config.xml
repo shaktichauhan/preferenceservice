@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?> <!-- Licensed to the Apache Software Foundation (ASF) under one or more contributor license agreements.  See the NOTICE file distributed with this work for additional information regarding copyright ownership. The ASF licenses this file to You under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License.  You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. -->
+
+<!DOCTYPE struts-config PUBLIC
+          "-//Apache Software Foundation//DTD Struts Configuration 1.3//EN"
+          "http://struts.apache.org/dtds/struts-config_1_3.dtd">
+
+<!--
+     This is a blank Struts configuration file with an example
+     welcome action/page and other commented sample elements.
+
+     Struts Validator is configured using the factory defaults
+     and is ready-to-use.
+
+     NOTE: If you have a generator tool to create the corresponding Java classes
+     for you, you could include the details in the "form-bean" declarations.
+     Otherwise, you would only define the "form-bean" element itself, with the
+     corresponding "name" and "type" attributes, as shown here.
+-->
+
+
+<struts-config>
+
+
+<!-- ================================================ Form Bean Definitions -->
+
+    <form-beans>
+    <!-- sample form bean descriptor for an ActionForm
+        <form-bean
+            name="inputForm"
+            type="app.InputForm"/>
+    end sample -->
+
+    <!-- sample form bean descriptor for a DynaActionForm
+        <form-bean
+            name="logonForm"
+            type="org.apache.struts.action.DynaActionForm">
+            <form-property
+                name="username"
+                type="java.lang.String"/>
+            <form-property
+                name="password"
+                type="java.lang.String"/>
+       </form-bean>
+       
+       
+    end sample -->
+    
+     <form-bean
+            name="brandAvocateForm"
+            type="com.readersdigest.onepass.brandAdvocate.form.BrandAdvocateForm"/> 
+    
+     <form-bean
+            name="registrationForm"
+            type="com.readersdigest.onepass.brandAdvocate.form.RegistrationForm"/> 
+            
+    <form-bean
+            name="onePassRegistrationForm"
+            type="com.readersdigest.onepass.form.OnePassRegistrationForm"/>  
+	<form-bean
+            name="onePassUpdateForm"
+            type="com.readersdigest.onepass.form.OnePassRegistrationForm"/> 
+	
+	<form-bean
+            name="onePassFullUpdateForm"
+            type="com.readersdigest.onepass.form.OnePassRegistrationForm"/> 
+	
+	
+	<form-bean
+			name="onePassLoginForm"
+			type="com.readersdigest.onepass.form.OnePassRegistrationForm" />
+
+	<form-bean name="minimalRegisterform"
+			type="com.readersdigest.onepass.form.OnePassRegistrationForm" />
+			
+	<form-bean name="onePassForgotPassword"
+			type="com.readersdigest.onepass.form.OnePassRegistrationForm" />
+			
+	<form-bean name="onePassResetPassword"
+			type="com.readersdigest.onepass.form.OnePassRegistrationForm" />
+			
+	<form-bean name="completeRegistrationForm"
+			type="com.readersdigest.onepass.form.OnePassRegistrationForm" />
+			
+	<form-bean name="promotionalRegistrationForm"
+			type="com.readersdigest.onepass.form.OnePassRegistrationForm" />
+			
+	<form-bean name="diyRegistrationForm"
+			type="com.readersdigest.onepass.form.OnePassRegistrationForm" />
+			
+	
+
+    </form-beans>
+
+
+<!-- ========================================= Global Exception Definitions -->
+
+    <global-exceptions>
+        <!-- sample exception handler
+        <exception
+            key="expired.password"
+            type="app.ExpiredPasswordException"
+            path="/changePassword.jsp"/>
+        end sample -->
+    </global-exceptions>
+
+
+<!-- =========================================== Global Forward Definitions -->
+
+    <global-forwards>
+        <!-- Default forward to "Welcome" action -->
+        <!-- Demonstrates using index.jsp to forward -->
+        <forward
+            name="welcome"
+            path="/Welcome.do"/>
+            
+        <forward name="/onePassIPadRegistration" path="/onePassIPadRegistration.do"/>
+        </global-forwards>
+
+
+<!-- =========================================== Action Mapping Definitions -->
+
+    <action-mappings>
+            <!-- Default "Welcome" action -->
+            <!-- Forwards to Welcome.jsp -->
+        <!-- START :Default "/info" for testing needs to remove action -->
+     <action path="/optOutConfirmation"
+                type="com.readersdigest.onepass.brandAdvocate.action.OptOutRegistration"
+                scope="request">
+            	<forward name="success" path="/jsp/brandAdvocate/optOutConfirmation.jsp" />
+      </action>
+     
+      <action
+            path="/landingPage" type="org.apache.struts.actions.ForwardAction"
+			parameter="/jsp/brandAdvocate/landingPage.jsp" >
+      </action>
+      
+       <action path="/landingAction"
+                type="com.readersdigest.onepass.brandAdvocate.action.BrandAdvocateAction"
+                validate="true"
+                scope="request"
+            	name="brandAvocateForm"
+            	input="/landingPage.do">
+            	<forward name="success" path="/jsp/brandAdvocate/brandSurvey.jsp" />
+       </action>
+       
+       <action
+            path="/confirmation" type="org.apache.struts.actions.ForwardAction"
+			parameter="/jsp/brandAdvocate/brandConfirmation.jsp" >
+      </action>
+       
+      <action
+            path="/registration" type="org.apache.struts.actions.ForwardAction"
+			parameter="/jsp/brandAdvocate/registrationPage.jsp" >
+      </action>
+      
+      <action
+            path="/freeGiftregistration" type="org.apache.struts.actions.ForwardAction"
+			parameter="/jsp/brandAdvocate/freeGiftRegistrationPage.jsp" >
+      </action>
+      
+       <action path="/registrationAction"
+                type="com.readersdigest.onepass.brandAdvocate.action.RegistrationAction"
+                validate="true"
+                scope="request"
+            	name="registrationForm"
+            	input="/registration.do">
+            	<forward name="success_ADV_RDO_3" path="/jsp/brandAdvocate/registrationConf.jsp" />
+            	<forward name="success_ADV_RDO_1" path="/jsp/brandAdvocate/freeGiftConfirmation.jsp" />
+       </action>
+       
+       <action path="/freeGiftRegistrationAction"
+                type="com.readersdigest.onepass.brandAdvocate.action.RegistrationAction"
+                validate="true"
+                scope="request"
+            	name="registrationForm"
+            	input="/freeGiftregistration.do">
+            	
+            	<forward name="success_ADV_RDO_3" path="/jsp/brandAdvocate/registrationConf.jsp" />
+            	<forward name="success_ADV_RDO_1" path="/jsp/brandAdvocate/freeGiftConfirmation.jsp" />
+       </action>
+       
+     <action path="/etTestAction"
+			type="com.readersdigest.onepass.action.ExactTargetTestAction"
+			scope="request">
+			<forward name="success" path="/jsp/onepass/thankYou.jsp" />
+	 </action>
+	 
+	 <action
+            path="/diyRegistration" type="org.apache.struts.actions.ForwardAction"
+			parameter="/jsp/onepass/diy/registration_usrd.jsp" >
+      </action>
+
+	 <action path="/diyRegistrationAction"
+                type="com.readersdigest.onepass.action.DIYRegistrationAction"
+                validate="true"
+            	scope="request"
+            	name="diyRegistrationForm"
+            	input="/diyRegistration.do">
+            	<forward name="success" path="/jsp/onepass/diy/confirmation_usrd.jsp"/>
+     </action>
+	 
+      <action
+            path="/promotionalRDRegistration" type="org.apache.struts.actions.ForwardAction"
+			parameter="/jsp/onepass/promotional/registration_usrd.jsp" >
+      </action>
+
+	 <action path="/promotionalRDRegistrationAction"
+                type="com.readersdigest.onepass.action.PromotionalRegistrationAction"
+                validate="true"
+            	scope="request"
+            	name="promotionalRegistrationForm"
+            	input="/promotionalRDRegistration.do">
+            	<forward name="success" path="/jsp/onepass/promotional/confirmation_usrd.jsp"/>
+     </action>
+     
+     <action path="/promotionalZinioRegistration"
+                type="com.readersdigest.onepass.action.PromotionalZinioRegistrationAction"
+                scope="request">
+     </action>
+        
+	 <action
+            path="/onePassMinimumInfo" type="org.apache.struts.actions.ForwardAction"
+			parameter="/jsp/onepass/minimalRegistrationform_IPAD.jsp" >
+     </action>
+     
+	  <action path="/minimalRegistrationAction"
+			type="com.readersdigest.onepass.action.MinimalRegistrationAction"
+			validate="true" scope="request" name="minimalRegisterform"
+			input="/onePassMinimumInfo.do">
+			<forward name="success" path="/jsp/onepass/thankYou.jsp" />
+	 </action>
+	 
+	 <!--  <action
+            path="/completeRegistration" type="org.apache.struts.actions.ForwardAction"
+			parameter="/jsp/onepass/completeRegistration_iPAD.jsp" >
+	 </action>-->
+	 
+	 <action
+            path="/completeRegistration" type="com.readersdigest.onepass.action.OnePassForwardAction">
+ 		 <forward name="success_RDO" path="/jsp/onepass/completeRegistration_iPAD.jsp"/>
+		<forward name="success_TOO" path="/jsp/onepass/toh/completeRegistration_iPAD.jsp"/>
+		<forward name="success_FHO" path="/jsp/onepass/fhm/completeRegistration_iPAD.jsp"/>
+	</action>
+	 
+	 <action path="/completeRegistrationAction"
+                type="com.readersdigest.onepass.action.OnePassProfileUpdateAction"
+                validate="true"
+                scope="request"
+            	name="completeRegistrationForm"
+            	input="/completeRegistration.do">
+            	<forward name="success" path="/jsp/onepass/confirmation.jsp"/>
+     </action>
+     
+     <action
+            path="/completeKindleRegistration" type="com.readersdigest.onepass.action.OnePassForwardAction">
+			<forward name="success_RDO" path="/jsp/onepass/completeRegistration_Kindle.jsp"/>
+			<forward name="success_TOO" path="/jsp/onepass/toh/completeRegistration_Kindle.jsp"/>
+			<forward name="success_FHO" path="/jsp/onepass/fhm/completeRegistration_Kindle.jsp"/>
+	 	</action>
+	 
+	 	<action path="/completeKindleRegistrationAction"
+                type="com.readersdigest.onepass.action.OnePassProfileUpdateAction"
+                validate="true"
+                scope="request"
+            	name="completeRegistrationForm"
+            	input="/completeKindleRegistration.do">
+            	<forward name="success" path="/jsp/onepass/confirmation.jsp"/>
+     	</action>
+     
+	 <action
+            path="/onePassMyAccount" type="org.apache.struts.actions.ForwardAction"
+			parameter="/jsp/onepass/myAccount.jsp" >
+     </action>
+	 
+	<!--   <action
+            path="/onePassForgetPassword" type="org.apache.struts.actions.ForwardAction"
+			parameter="/jsp/onepass/onePassForgotPassword.jsp" >
+     </action>
+     -->
+     
+     <action
+            path="/onePassForgetPassword" type="com.readersdigest.onepass.action.OnePassForwardAction">
+ 		 <forward name="success_RDO" path="/jsp/onepass/onePassForgotPassword.jsp"/>
+		 <forward name="success_TOO" path="/jsp/onepass/toh/onePassForgotPassword.jsp"/>
+		 <forward name="success_FHO" path="/jsp/onepass/fhm/onePassForgotPassword.jsp"/>
+	 </action>
+     
+	  <action path="/onePassForgetPasswordAction"
+			type="com.readersdigest.onepass.action.OnePassForgetPasswordAction"
+			validate="true" scope="request" name="onePassForgotPassword"
+			input="/onePassForgetPassword.do">
+			<forward name="success" path="/jsp/onepass/forgetPasswordConfirmation.jsp" />
+	  </action>
+	  
+	  <action
+            path="/onePassKindleForgetPassword" type="com.readersdigest.onepass.action.OnePassForwardAction">
+			<forward name="success_RDO" path="/jsp/onepass/onePassForgotPassword_Kindle.jsp"/>
+		    <forward name="success_TOO" path="/jsp/onepass/toh/onePassForgotPassword_Kindle.jsp"/>
+		    <forward name="success_FHO" path="/jsp/onepass/fhm/onePassForgotPassword_Kindle.jsp"/>
+      </action>
+     
+	  <action path="/onePassKindleForgetPasswordAction"
+			type="com.readersdigest.onepass.action.OnePassForgetPasswordAction"
+			validate="true" scope="request" name="onePassForgotPassword"
+			input="/onePassKindleForgetPassword.do">
+			<forward name="success" path="/jsp/onepass/forgetPasswordConfirmation.jsp" />
+	  </action>
+	 
+ 	<action path="/onePassResetPassword"
+			type="com.readersdigest.onepass.action.OnePassResetPassword"
+			validate="true" scope="request" 
+			input="/onePassResetPassword.do">
+			<forward name="success" path="/jsp/onepass/onePassResetPassword.jsp" />
+			<forward name="success_RDO" path="/jsp/onepass/onePassResetPassword.jsp"/>
+			<forward name="success_TOO" path="/jsp/onepass/toh/onePassResetPassword.jsp"/>
+			<forward name="success_FHO" path="/jsp/onepass/fhm/onePassResetPassword.jsp"/>
+	 </action>
+     
+	 <action path="/onePassUpdatePasswordAction"
+			type="com.readersdigest.onepass.action.OnePassUpdatePasswordAction"
+			validate="true" scope="request" name="onePassResetPassword"
+			input="/onePassResetPassword.do">
+			<forward name="success" path="/jsp/onepass/resetPasswordConfirmation.jsp" />
+	 </action>
+	 
+	 <action path="/onePassKindleResetPassword"
+			type="com.readersdigest.onepass.action.OnePassResetPassword"
+			validate="true" scope="request" 
+			input="/onePassKindleResetPassword.do">
+			<forward name="success" path="/jsp/onepass/onePassResetPassword_Kindle.jsp" />
+			<forward name="success_RDO" path="/jsp/onepass/onePassResetPassword_Kindle.jsp"/>
+			<forward name="success_TOO" path="/jsp/onepass/toh/onePassResetPassword_Kindle.jsp"/>
+			<forward name="success_FHO" path="/jsp/onepass/fhm/onePassResetPassword_Kindle.jsp"/>
+	  </action>
+     
+	 <action path="/onePassKindleUpdatePasswordAction"
+			type="com.readersdigest.onepass.action.OnePassUpdatePasswordAction"
+			validate="true" scope="request" name="onePassResetPassword"
+			input="/onePassKindleResetPassword.do">
+			<forward name="success" path="/jsp/onepass/resetPasswordConfirmation.jsp" />
+	 </action>
+
+     <action
+            path="/onePassIPadRegistration" type="com.readersdigest.onepass.action.OnePassForwardAction">
+			<forward name="success_RDO" path="/jsp/onepass/onePassRegistration_iPAD.jsp"/>
+		    <forward name="success_TOO" path="/jsp/onepass/toh/onePassRegistration_iPAD.jsp"/>
+		    <forward name="success_FHO" path="/jsp/onepass/fhm/onePassRegistration_iPAD.jsp"/>
+     </action>
+     
+     <action
+            path="/onePassiPadRegistration" type="com.readersdigest.onepass.action.OnePassForwardAction">
+			<forward name="success_RDO" path="/jsp/onepass/onePassRegistration_iPAD.jsp"/>
+		    <forward name="success_TOO" path="/jsp/onepass/toh/onePassRegistration_iPAD.jsp"/>
+		    <forward name="success_FHO" path="/jsp/onepass/fhm/onePassRegistration_iPAD.jsp"/>
+     </action>
+        
+        <action path="/onePassIpadRegistrationAction"
+                type="com.readersdigest.onepass.action.OnePassRegistrationAction"
+                validate="true"
+            	scope="request"
+            	name="onePassRegistrationForm"
+            	input="/onePassIPadRegistration.do">
+            	<forward name="success" path="/jsp/onepass/confirmation.jsp"/>
+        </action>
+        
+        <action
+            path="/onePassKindleRegistration" type="com.readersdigest.onepass.action.OnePassForwardAction">
+            <forward name="success_RDO" path="/jsp/onepass/onePassRegistration_Kindle.jsp"/>
+		    <forward name="success_TOO" path="/jsp/onepass/toh/onePassRegistration_Kindle.jsp"/>
+		    <forward name="success_FHO" path="/jsp/onepass/fhm/onePassRegistration_Kindle.jsp"/>
+     </action>
+        
+        <action path="/onePassKindleRegistrationAction"
+                type="com.readersdigest.onepass.action.OnePassRegistrationAction"
+                validate="true"
+            	scope="request"
+            	name="onePassRegistrationForm"
+            	input="/onePassKindleRegistration.do">
+            	<forward name="success" path="/jsp/onepass/thankYou.jsp"/>
+        </action>
+
+		 <action path="/onePassIpadProfileUpdate"
+                type="com.readersdigest.onepass.action.OnePassProfileUpdate"
+                scope="request">
+                <forward name="success" path="/jsp/onepass/onePassProfileUpdate_iPAD.jsp"/>
+                <forward name="success_RDO" path="/jsp/onepass/onePassProfileUpdate_iPAD.jsp"/>
+                <forward name="success_TOO" path="/jsp/onepass/toh/onePassProfileUpdate_iPAD.jsp"/>
+                <forward name="success_FHO" path="/jsp/onepass/fhm/onePassProfileUpdate_iPAD.jsp"/>
+        </action>
+        
+        <action path="/onePassIpadUpdateAction"
+                type="com.readersdigest.onepass.action.OnePassProfileUpdateAction"
+                validate="true"
+                scope="request"
+            	name="onePassUpdateForm"
+            	input="/onePassIpadProfileUpdate.do">
+            	<forward name="success" path="/jsp/onepass/confirmation.jsp"/>
+        </action>
+        
+        <action path="/onePassKindleProfileUpdate"
+                type="com.readersdigest.onepass.action.OnePassProfileUpdate"
+                scope="request">
+                	<forward name="success" path="/jsp/onepass/onePassProfileUpdate_Kindle.jsp"/>
+                	<forward name="success_RDO" path="/jsp/onepass/onePassProfileUpdate_Kindle.jsp"/>
+                	<forward name="success_TOO" path="/jsp/onepass/toh/onePassProfileUpdate_Kindle.jsp"/>
+                	<forward name="success_FHO" path="/jsp/onepass/fhm/onePassProfileUpdate_Kindle.jsp"/>
+        </action>
+        
+        <action path="/onePassKindleUpdateAction"
+                type="com.readersdigest.onepass.action.OnePassProfileUpdateAction"
+                validate="true"
+                scope="request"
+            	name="onePassUpdateForm"
+            	input="/onePassKindleProfileUpdate.do">
+            	<forward name="success" path="/jsp/onepass/thankYou.jsp"/>
+        </action>
+        
+        <action path="/onePassEmailValidation"
+			type="com.readersdigest.onepass.action.OnePassEmailValidation">
+			<forward name="success" path="/jsp/onepass/emailValidationConfirmation.jsp" />
+			<forward name="success_RDO" path="/jsp/onepass/emailValidationConfirmation.jsp" />
+			<forward name="success_TOO" path="/jsp/onepass/toh/emailValidationConfirmation.jsp" />
+			<forward name="success_FHO" path="/jsp/onepass/fhm/emailValidationConfirmation.jsp" />
+	    </action>
+     
+	
+		<action path="/onePassMyProfile" type="org.apache.struts.actions.ForwardAction"
+			parameter="/jsp/onepass/myProfile.jsp">
+		</action>
+		
+		<action path="/onePassLoginAction"
+			type="com.readersdigest.onepass.action.OnePassLoginAction"
+			validate="true" scope="request" name="onePassLoginForm" input="/onePassMyProfile.do?error=true">
+			<forward name="success" path="/jsp/onepass/thankYou.jsp" />
+		</action>
+	
+    </action-mappings>
+
+
+<!-- ======================================== Message Resources Definitions -->
+
+    <message-resources parameter="com.readersdigest.onepass.ApplicationResources" null="false"/> 
+
+
+<!-- =============================================== Plug Ins Configuration -->
+
+  <!-- ======================================================= Tiles plugin -->
+  <!--
+     This plugin initialize Tiles definition factory. This later can takes some
+	 parameters explained here after. The plugin first read parameters from
+	 web.xml, thenoverload them with parameters defined here. All parameters
+	 are optional.
+     The plugin should be declared in each struts-config file.
+       - definitions-config: (optional)
+            Specify configuration file names. There can be several comma
+		    separated file names (default: ?? )
+       - moduleAware: (optional - struts1.1)
+            Specify if the Tiles definition factory is module aware. If true
+            (default), there will be one factory for each Struts module.
+			If false, there will be one common factory for all module. In this
+            later case, it is still needed to declare one plugin per module.
+            The factory will be initialized with parameters found in the first
+            initialized plugin (generally the one associated with the default
+            module).
+			  true : One factory per module. (default)
+			  false : one single shared factory for all modules
+	   - definitions-parser-validate: (optional)
+	        Specify if xml parser should validate the Tiles configuration file.
+			  true : validate. DTD should be specified in file header (default)
+			  false : no validation
+
+	  Paths found in Tiles definitions are relative to the main context.
+
+      To use this plugin, download and add the Tiles jar to your WEB-INF/lib
+      directory then uncomment the plugin definition below.
+
+    <plug-in className="org.apache.struts.tiles.TilesPlugin" >
+
+      <set-property property="definitions-config"
+                       value="/WEB-INF/tiles-defs.xml" />
+      <set-property property="moduleAware" value="true" />
+    </plug-in>
+  -->  
+
+
+  <!-- =================================================== Validator plugin -->
+  
+   <plug-in className="org.apache.struts.validator.ValidatorPlugIn">
+        <set-property property="pathnames"
+          value="/WEB-INF/validator-rules.xml,/WEB-INF/validation.xml"/>
+   </plug-in> 
+  
+  
+  
+</struts-config>
+

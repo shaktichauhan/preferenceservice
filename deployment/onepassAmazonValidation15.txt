@@ -1,0 +1,5 @@
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/cds/global/api/Customer.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/cds/global/api/WSG.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/onepass/service/impl/OnePassAmazonServiceImpl.java
+
+

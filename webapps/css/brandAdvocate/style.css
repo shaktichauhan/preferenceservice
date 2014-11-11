@@ -1,0 +1,392 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	font-family: 'Open Sans', Arial, sans-serif;
+	background-image: url(/preference/jsp/brandAdvocate/images/bg-img2.jpg);
+	background-position: top;
+	background-repeat: repeat-x;
+	background-color: #fff;
+	margin: 0px;
+}
+
+h1 {
+	font-size: 35px;
+	line-height: 38px;
+	color: #a91b2a;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	font-weight: 400;
+	letter-spacing: -1px;
+}
+
+h2 {
+	font-size: 26px;
+	line-height: 35px;
+	color: #ed1c24;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	font-weight: 700;
+	letter-spacing: -1px;
+}
+
+h3 {
+	font-size: 18px;
+	line-height: 22px;
+	color: #ed1c24;
+	margin: 12px 0 0 0;
+	padding: 0px;
+	font-weight: 700;
+	letter-spacing: -1px;
+	text-transform: uppercase;
+}
+
+p {
+	padding: 2px 0 0 0;
+	margin: 2px 0 8px 0;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+a {
+	text-decoration: underline;
+	font-weight: bold;
+	color: #ed1c24;
+}
+
+ol li {
+	list-style-position: outside;
+	margin-left: 182px;
+	padding-left: 0em;
+	text-indent: -0em;
+	font-size: 14px;
+}
+
+.CRS {
+	display: none;
+}
+
+#container {
+	width: 900px;
+	margin: 0 auto;
+	height: auto;
+	overflow: auto;
+	padding-bottom: 60px;
+}
+
+#header {
+	height: auto;
+	
+}
+
+#left {
+	clear: both;
+	float: left;
+	width: 46%;
+	margin: 8px 6% 0 0%;
+	height: auto;
+	overflow: auto;
+}
+
+#right {
+	float: left;
+	width: 37%;
+	padding: 20px 5% 40px 5%;
+	margin-top: 35px;
+	background-color: #fefdfb;
+	-webkit-box-shadow: 0 0 1px 2px #cccccc;
+	box-shadow: 0 0 1px 2px #cccccc;
+}
+
+#right ol li {
+	list-style-position: outside;
+	margin-left: 5px;
+	padding-left: 0em;
+	text-indent: -0em;
+	font-size: 14px;
+}
+
+.header {
+	width: 100%;
+}
+
+.mobile-header {
+	display: none;
+}
+
+.left-image {
+	width: 100%;
+}
+
+.icons {
+	width: 592px;
+}
+
+input[type="text"] {
+	background-color: #FAFAFA;
+	border: 1px solid #CCC;
+	font-size: 15px;
+	height: 16px;
+	padding: 5px;
+	margin: 0px 0 5px 0;
+	color: #666;
+	width: 100%;
+}
+input[type="password"] {
+	background-color: #FAFAFA;
+	border: 1px solid #CCC;
+	font-size: 15px;
+	height: 16px;
+	padding: 5px;
+	margin: 0px 0 5px 0;
+	color: #666;
+	width: 100%;
+	}
+input[type="text2"] {
+	background-color: #FAFAFA;
+	border: 1px solid #CCC;
+	font-size: 15px;
+	height: 25px;
+	padding: 5px;
+	color: #666;
+	width: 40%;
+}
+
+#NextButton {
+		background: none;
+		border: 0;
+		margin: 0;
+		padding: 0;
+		width: 280px;
+		clear: both;
+		display: block;
+}
+	
+input:focus,select:focus,textarea:focus,button:focus {
+	outline: none;
+}
+
+.styled-select select {
+	background-color: #FAFAFA;
+	border: 1px solid #CCC;
+	padding: 2px;
+	height: 30px;
+	width: 39%
+}
+
+input[type="radio"] {
+	width: 18px;
+	height: 18px;
+	padding: 0px 5px 0 0;
+	
+	display: block;
+	clear: left;
+	float: left;
+	margin-top: 3px;
+}
+
+textarea {
+	width: 115%;
+	margin-top: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	resize: none;
+}
+
+.button {
+	clear: both;
+	width: 280px;
+	height: 45px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px 0 0 0;
+}
+
+.footer {
+	width: 900px;
+	margin: 0 auto;
+	height: auto;
+	
+	margin-bottom: 10px;
+	padding-top: 30px;
+	border-top: 1px solid #dbdbdb;
+}
+
+.footer p {
+	text-align: left;
+	font-size: 13px;
+	line-height: 16px;
+	color: #999;
+}
+
+.ipad {
+	float: left;
+	margin-right: 10px;
+}
+
+.legal {
+	clear: both;
+	font-size: 12px;
+	line-height: 16px;
+	color: #666;
+	width: 90%;
+	margin: 0px auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.number {
+	float: left;
+	clear: both;
+	width: 8%;
+	height: auto;
+	margin-left: 15px;
+}
+
+.friend {
+	float: left;
+	width: 80%;
+	height: auto;
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+
+.name {
+	float: left;
+	width: 45%;
+}
+
+.last {
+	float: left;
+	margin-left: 6%;
+	width: 49%;
+}
+
+.email {
+	clear: both;
+	width: 100%;
+	display: block;
+	margin-bottom: 6px;
+}
+
+.facebook {
+	margin-bottom: 150px;
+}
+
+@media only screen and (max-width: 1000px) {
+	#container {
+		width: 95%;
+		margin: 0 auto;
+	}
+	#left {
+		
+	}
+	#right {
+		
+	}
+	input[type="text"] {
+		background-color: #FAFAFA;
+		border: 1px solid #CCC;
+		font-size: 15px;
+		height: 25px;
+		padding: 5px;
+		color: #666;
+		width: 95%;
+	}
+	input[type="password"] {
+	background-color: #FAFAFA;
+	border: 1px solid #CCC;
+	font-size: 15px;
+	height: 16px;
+	padding: 5px;
+	margin: 0px 0 5px 0;
+	color: #666;
+	width: 100%;
+	}
+	input[type="text2"] {
+		background-color: #FAFAFA;
+		border: 1px solid #CCC;
+		font-size: 15px;
+		height: 25px;
+		padding: 5px;
+		color: #666;
+		width: 45%;
+	}
+	input:focus,select:focus,textarea:focus,button:focus {
+		outline: none;
+	}
+	.styled-select select {
+		background-color: #FAFAFA;
+		border: 1px solid #CCC;
+		padding: 2px;
+		height: 30px;
+		width: 48%
+	}
+	input[type="radio"] {
+		width: 18px;
+		height: 18px;
+		padding: 0px 5px 0 0;
+		background: url(checkbox.png) no-repeat;
+		display: block;
+		clear: left;
+		float: left;
+		margin-top: 3px;
+	}
+	.footer {
+		width: 90%;
+	}
+}
+
+@media only screen and (max-width: 719px) {
+	#container {
+		min-width: 480px;
+	}
+	#header {
+		width: 93%;
+		margin: 0 auto;
+	}
+	.mobile-header {
+		display: block;
+		width: 100%;
+	}
+	#left {
+		clear: both;
+		width: 90%;
+		margin: 0 auto;
+		float: none;
+	}
+	#right {
+		clear: both;
+		width: 85%;
+		margin: 0 auto;
+		padding: 15px 5% 35px 5%;
+		margin-top: 22px;
+		float: none;
+	}
+	
+	.legal2 {
+		color: #333333;
+		width: 100%;
+	}
+	.CRS {
+		display: block;
+		font-size: 12px;
+		line-height: 17px;
+		color: #333333;
+		width: 100%;
+	}
+	.button {
+		width: 280px;
+		height: 45px;
+		margin: 0 auto;
+	}
+	.facebook {
+		margin-bottom: 0px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.icons {
+		width: 100%;
+	}
+}

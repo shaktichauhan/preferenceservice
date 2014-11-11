@@ -1,0 +1,10 @@
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/keys
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/keys/Private.key
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/keys/Public.key
+
+
+
+
+
+
+

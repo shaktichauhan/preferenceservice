@@ -1,0 +1,15 @@
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/onepass/dto/OnePassServiceAdobeResponse.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/onepass/rest/resource/OnePassResource.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/onepass/service/impl/OnePassAuthServiceImpl.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/onepass/service/impl/OnePassServiceImpl.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/onepass/service/OnePassService.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/WEB-INF/struts-config.xml
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/onepass/action/OnePassEmailValidation.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/jsp/onepass/emailValidationConfirmation.jsp
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/META-INF/persistence.xml
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/META-INF/persistence.xml
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/WEB-INF/classes/META-INF/persistence.xml
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/onepass/db/EmailValid.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/onepass/db/EmailValidDAO.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/onepass/db/IEmailValidDAO.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/WEB-INF/classes/com/readersdigest/onepass/OnePassResources.properties

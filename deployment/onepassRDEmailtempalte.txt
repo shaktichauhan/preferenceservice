@@ -1,0 +1,1 @@
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/WEB-INF/classes/com/readersdigest/onepass/OnePassResources.properties

@@ -1,0 +1,16 @@
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/exacttarget/client/ETExtensionServices.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/exacttarget/client/impl/ETExtensionServicesImpl.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/exacttarget/client/testclient/TestAddUpdateSubscription.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/exacttarget/client/testclient/TestAddUpdateUserRole.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/exacttarget/client/testclient/TestDigitalOrder.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/exacttarget/client/testclient/TestDigitalProfile.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/exacttarget/client/testclient/TestDigitalProfileWithSubscriptionPreferences.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/exacttarget/dto/DigitalOrder.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/exacttarget/dto/DigitalProfile.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/exacttarget/dto/ETResponse.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/exacttarget/dto/Preferences.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/exacttarget/dto/UserRoles.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/exacttarget/utils/ETVaidationUtils.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/exacttarget/client/testclient/TestGetSubscriptionPreferences.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/exacttarget/dto/GetSubscriptionPreferencesRequest.java
+

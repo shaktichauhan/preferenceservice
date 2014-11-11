@@ -1,0 +1,12 @@
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/onepass/brandAdvocate/action/BrandAdvocateAction.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/onepass/brandAdvocate/action/RegistrationAction.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/onepass/brandAdvocate/form/BrandAdvocateForm.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/onepass/brandAdvocate/form/RegistrationForm.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/onepass/service/impl/OnePassBrandAdvocateServiceImpl.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/jsp/brandAdvocate/brandConfirmation.jsp
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/jsp/brandAdvocate/brandSurvey.jsp
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/jsp/brandAdvocate/freeGiftConfirmation.jsp
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/jsp/brandAdvocate/freeGiftRegistrationPage.jsp
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/jsp/brandAdvocate/landingPage.jsp
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/jsp/brandAdvocate/registrationConf.jsp
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/jsp/brandAdvocate/registrationPage.jsp

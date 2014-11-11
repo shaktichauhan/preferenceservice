@@ -1,0 +1,3 @@
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/WEB-INF/struts-config.xml
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/onepass/brandAdvocate/action/OptOutRegistration.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/jsp/brandAdvocate/optOutConfirmation.jsp

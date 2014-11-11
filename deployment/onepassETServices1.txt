@@ -1,0 +1,3 @@
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/exacttarget/service/impl/OnePassEtApiServiceImpl.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/exacttarget/service/OnePassEtApiService.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/onepass/rest/resource/OnePassResource.java

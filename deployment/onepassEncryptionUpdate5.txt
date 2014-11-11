@@ -1,0 +1,5 @@
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/mycert.der
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/onepass/service/impl/OnePassAmazonServiceImpl.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/onepass/util/RSAEncryptionDescription.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/mycert.crt
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/private-key.der

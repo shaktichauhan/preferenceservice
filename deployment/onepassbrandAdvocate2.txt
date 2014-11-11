@@ -1,0 +1,8 @@
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/onepass/service/impl/OnePassAuthServiceImpl.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/onepass/service/impl/OnePassETAuthServiceImpl.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/META-INF/persistence.xml
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/META-INF/persistence.xml
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/WEB-INF/classes/META-INF/persistence.xml
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/onepass/db/EntitlementsBrandAdvocate.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/onepass/db/EntitlementsBrandAdvocateDAO.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/onepass/db/IEntitlementsBrandAdvocateDAO.java

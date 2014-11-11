@@ -1,0 +1,6 @@
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/onepass/brandAdvocate/action/OptOutRegistration.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/onepass/brandAdvocate/action/RegistrationAction.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/onepass/brandAdvocate/util/TriggerEmail.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/onepass/service/impl/OnePassBrandAdvocateServiceImpl.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/jsp/brandAdvocate/brandConfirmation.jsp
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/jsp/brandAdvocate/brandSurvey.jsp

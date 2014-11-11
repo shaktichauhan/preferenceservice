@@ -1,0 +1,5 @@
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/onepass/action/PromotionalZinioRegistrationAction.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/css/promotional/images-confirmation/banner-mobile.jpg
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/jsp/onepass/promotional/confirmation_usrd.jsp
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/WEB-INF/struts-config.xml
+

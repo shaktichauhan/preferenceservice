@@ -1,0 +1,56 @@
+<project name="preferenceService" default="preferenceServicejar" basedir=".">
+
+<property name="preferenceService.temp.root"  location="d:\temp\preferenceService"/>
+	<property name="preferenceService.source.base"  location="."/>
+	<property name="preferenceService.base"  location=".."/>
+	<property name="preferenceService.lib.base"  location="../webapps/WEB-INF/lib"/>
+  	<property name="local.classroot"  location="."/>
+  	<property name="jdk1.5"  value="/usr/jdk/jdk1.5.0_28" /> 
+  
+	<path id="compile.class.path">
+		<fileset dir="${preferenceService.base}/webapps/WEB-INF/lib">
+			<include name="**/*.jar" />
+		</fileset>
+	<!--	<fileset dir="${preferenceService.base}/buildjars">
+			<include name="**/*.jar" />
+		</fileset> -->
+	</path>
+	
+  	<target name="compile" description="Compile the preferenceService.jar"> 
+	<echo message="${jdk1.5}"/>
+  	<mkdir dir="${preferenceService.temp.root}/classes"/>
+	<echo message="Directory is ${preferenceService.temp.root}/classes"/>
+        <javac destdir="${preferenceService.temp.root}/classes"
+                fork="yes"
+                executable="${jdk1.5}/bin/javac"
+                includeJavaRuntime="no"
+                includeAntRuntime="no"
+                debug="on"
+                classpathref="compile.class.path">				
+                <compilerarg line="-encoding UTF-8" />				
+                <src path="${preferenceService.source.base}" />
+		 </javac>
+	<echo message="Finished compile."/>
+  	</target>
+
+  	<target name="clean" description="Delete the temporary files">
+  
+    	<delete dir="${preferenceService.temp.root}/classes"/> 
+  		<delete dir="${preferenceService.temp.root}/jar"/> 
+  
+  	</target>
+
+  	<target name="preferenceServicejar" description="Jar up the files for the preferenceService.jar" depends="clean,compile">
+
+	<echo message="${preferenceService.temp.root}/jar"/>
+
+    	<mkdir dir="${preferenceService.temp.root}/jar"/>
+
+        <jar jarfile="${preferenceService.temp.root}/jar/preferenceService.jar" >
+                <fileset dir="${preferenceService.temp.root}/classes" includes="**/*.class" />
+		<fileset dir="${preferenceService.temp.root}/classes" includes="**/*.properties" />                
+        </jar>
+
+  </target>
+
+</project>

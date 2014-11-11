@@ -1,0 +1,11 @@
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/js/brandAdvocate/formValidation.js
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/onepass/brandAdvocate/action/BrandAdvocateAction.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/onepass/brandAdvocate/action/OptOutRegistration.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/onepass/brandAdvocate/action/RegistrationAction.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/onepass/brandAdvocate/util/TriggerEmail.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/css/brandAdvocate/style.css
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/jsp/brandAdvocate/freeGiftRegistrationPage.jsp
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/jsp/brandAdvocate/landingPage.jsp
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/jsp/brandAdvocate/registrationPage.jsp
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/jsp/brandAdvocate/brandSurvey.jsp
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/WEB-INF/classes/com/readersdigest/onepass/OnePassResources.properties

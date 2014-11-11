@@ -1,0 +1,12 @@
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/onepass/util/RSAEncryptionDescription.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/onepass/rest/resource/OnePassAmazonResource.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/onepass/service/impl/OnePassAmazonServiceImpl.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/Private.key
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/Public.key
+
+
+
+
+
+
+

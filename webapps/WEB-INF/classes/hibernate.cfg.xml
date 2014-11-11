@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ Reader's Digest Digital Business Group
+
+ Copyright 2005 Reader's Digest, Inc. All Rights Reserved.
+
+ This software is the proprietary information of Reader's Digest, Inc.
+ Use is subject to license terms.
+-->
+
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 2.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-configuration-2.0.dtd">
+
+<hibernate-configuration >
+    <session-factory>
+        <!-- IMPORTANT!!! *** JNDI name prefix java:comp/env/ is good ONLY for Tomcat !!! *** -->
+        <property name="connection.datasource">java:comp/env/jdbc/registration</property>
+        <!-- other servers (e.g. JBoss) may use another JNDI name prefix (e.g. just "java:") -->
+<!--
+        <property name="connection.driver_class">com.inet.tds.TdsDriver</property>
+        <property name="connection.url">jdbc:inetdae7:161.230.144.140?database=registration</property>
+        <property name="connection.username">app_i3c</property>
+        <property name="connection.password">goodmorning2you</property>
+-->
+
+        <property name="dialect">net.sf.hibernate.dialect.SQLServerDialect</property>
+        <property name="query.substitutions">true 'Y', false 'N'</property>
+        <property name="show_sql">false</property>
+        <!-- Connection Pool -->
+        <property name="dbcp.maxActive">300</property>
+        <property name="dbcp.maxIdle">50</property>
+        <property name="dbcp.maxWait">30000</property>
+        <property name="dbcp.whenExhaustedAction">1</property>
+        <property name="dbcp.validationQuery">select getdate()</property>
+        <property name="dbcp.testWhileIdle">true</property>
+        <property name="dbcp.testOnBorrow">true</property>
+        <!-- Prepared Statement Cache -->
+        <property name="dbcp.ps.maxActive">300</property>
+        <property name="dbcp.ps.maxIdle">50</property>
+        <property name="dbcp.ps.maxWait">30000</property>
+        <property name="dbcp.ps.whenExhaustedAction">1</property>
+
+        <property name="cache.provider_class">net.sf.ehcache.hibernate.Provider</property>
+		<property name="hibernate.jdbc.batch_size">10</property>
+
+        <mapping resource="com/readersdigest/preference/domain/Preference.hbm.xml"/> 
+        <mapping resource="com/readersdigest/profile/bean/Address.hbm.xml"/>
+        <mapping resource="com/readersdigest/profile/bean/AddressType.hbm.xml"/>
+        <mapping resource="com/readersdigest/profile/bean/Application.hbm.xml"/>
+        <mapping resource="com/readersdigest/profile/bean/ApplicationContactReason.hbm.xml"/>
+        <mapping resource="com/readersdigest/profile/bean/Attribute.hbm.xml"/>
+        <mapping resource="com/readersdigest/profile/bean/Bundle.hbm.xml"/>
+        <mapping resource="com/readersdigest/profile/bean/ContactReason.hbm.xml"/>
+        <mapping resource="com/readersdigest/profile/bean/Country.hbm.xml"/>
+        <mapping resource="com/readersdigest/profile/bean/CountryLanguage.hbm.xml"/>
+        <mapping resource="com/readersdigest/profile/bean/Email.hbm.xml"/>
+        <mapping resource="com/readersdigest/profile/bean/EmailType.hbm.xml"/>
+        <mapping resource="com/readersdigest/profile/bean/Language.hbm.xml"/>
+        <mapping resource="com/readersdigest/profile/bean/MarketingAttribute.hbm.xml"/>
+        <mapping resource="com/readersdigest/profile/bean/Member.hbm.xml"/>
+        <mapping resource="com/readersdigest/profile/bean/MemberAttribute.hbm.xml"/>
+        <mapping resource="com/readersdigest/profile/bean/MemberBundle.hbm.xml"/>
+        <mapping resource="com/readersdigest/profile/bean/MemberContent.hbm.xml"/>
+        <mapping resource="com/readersdigest/profile/bean/MemberInfo.hbm.xml"/>
+        <mapping resource="com/readersdigest/profile/bean/MemberMarketingAttribute.hbm.xml"/>
+        <mapping resource="com/readersdigest/profile/bean/MemberStatus.hbm.xml"/>
+        <mapping resource="com/readersdigest/profile/bean/NonMemberContactReason.hbm.xml"/>
+        <mapping resource="com/readersdigest/profile/bean/NonMemberProfile.hbm.xml"/>
+        <mapping resource="com/readersdigest/profile/bean/PaymentInfo.hbm.xml"/>
+        <mapping resource="com/readersdigest/profile/bean/PaymentMethod.hbm.xml"/>
+        <mapping resource="com/readersdigest/profile/bean/PhoneNumber.hbm.xml"/>
+        <mapping resource="com/readersdigest/profile/bean/PhoneNumberType.hbm.xml"/>
+        <mapping resource="com/readersdigest/profile/bean/Subdivision.hbm.xml"/>
+        <mapping resource="com/readersdigest/profile/bean/SubdivisionLanguage.hbm.xml"/>
+        <mapping resource="com/readersdigest/profile/bean/ValueType.hbm.xml"/>
+        <mapping resource="com/readersdigest/profile/security/MemberCredentials.hbm.xml"/>
+        <mapping resource="com/readersdigest/profile/bean/RegistrationType.hbm.xml"/>
+        <mapping resource="com/readersdigest/profile/bean/RegistrationBundle.hbm.xml"/>
+        <mapping resource="com/readersdigest/profile/bean/ActivityLog.hbm.xml"/>
+        <mapping resource="com/readersdigest/profile/bean/CsrActivityLog.hbm.xml"/>
+		<mapping resource="com/readersdigest/profile/bean/EmailProperty.hbm.xml"/>
+        <mapping resource="com/readersdigest/profile/bean/SmartMarketing.hbm.xml"/>
+
+        <mapping resource="com/readersdigest/preferences/bean/UserPreference.hbm.xml"/>
+        <mapping resource="com/readersdigest/preferences/bean/EmailAddressOptHistory.hbm.xml"/>
+        <mapping resource="com/readersdigest/preferences/bean/EmailAddressOptStatus.hbm.xml"/>
+        <mapping resource="com/readersdigest/preferences/bean/OptStatus.hbm.xml"/>
+        <mapping resource="com/readersdigest/preferences/bean/Source.hbm.xml"/>
+        <mapping resource="com/readersdigest/preferences/bean/TrackingId.hbm.xml"/>
+        <mapping resource="com/readersdigest/preferences/bean/OptStatusTransaction.hbm.xml"/>
+        <mapping resource="com/readersdigest/preferences/bean/OptStatusTransactionMap.hbm.xml"/>
+        <mapping resource="com/readersdigest/preferences/bean/Link.hbm.xml"/>
+        <mapping resource="com/readersdigest/preferences/bean/UserPreferenceGroup.hbm.xml"/>
+        <mapping resource="com/readersdigest/preferences/bean/UserPreferenceGroupMember.hbm.xml"/>
+
+    </session-factory>
+
+</hibernate-configuration>
+

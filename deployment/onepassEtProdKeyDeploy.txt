@@ -1,0 +1,12 @@
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/exacttarget/client/impl/ETExtensionServicesImpl.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/exacttarget/utils/ETVaidationUtils.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/WEB-INF/struts-config.xml
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/onepass/action/ExactTargetTestAction.java
+
+
+
+
+
+
+
+

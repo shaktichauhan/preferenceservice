@@ -1,0 +1,9 @@
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/css/promotional/images-confirmation/appStore.jpg
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/css/promotional/images-confirmation/banner-mobile.jpg
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/css/promotional/images-order/appStore.jpg
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/css/promotional/registration.css
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/css/promotional/thankyou.css
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/jsp/onepass/promotional/confirmation_usrd.jsp
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/jsp/onepass/promotional/registration_usrd.jsp
+
+

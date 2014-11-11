@@ -1,0 +1,12 @@
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/onepass/rest/resource/OnePassResource.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/exacttarget/dto/EtEntryDTO.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/exacttarget/dto/OnePassEtEntryResponse.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/exacttarget/service
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/exacttarget/service/impl
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/exacttarget/service/impl/OnePassEtApiServiceImpl.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/exacttarget/service/OnePassEtApiService.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/exacttarget/utils/StringUtils.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/exacttarget/utils/TriggerEmail.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/WEB-INF/classes/com/readersdigest/exacttarget
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/WEB-INF/classes/com/readersdigest/exacttarget/ApplicationResources.properties
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/WEB-INF/classes/com/readersdigest/exacttarget/SweepApiResources.properties

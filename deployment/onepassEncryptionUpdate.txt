@@ -1,0 +1,6 @@
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/onepass/util/RSAEncryptionDescription.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/WEB-INF/lib/bcmail-jdk15on-147.jar
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/WEB-INF/lib/bcpg-jdk15on-147.jar
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/WEB-INF/lib/bcpkix-jdk15on-147.jar
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/webapps/WEB-INF/lib/bcprov-ext-jdk15on-147.jar
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/mycert.der

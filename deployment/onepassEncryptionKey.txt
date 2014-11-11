@@ -1,0 +1,4 @@
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/src/com/readersdigest/onepass/util/RSAEncryptionDescription.java
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/mycert.der
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/private_key.der
+file:///rdappls/subversion/rdairepo/preferenceService/dev/trunk/tst_public.der

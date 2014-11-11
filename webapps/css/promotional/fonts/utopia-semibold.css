@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'UtopiaSemiBoldSemiBold';
+    src: url('utopia-semibold.eot');
+    src: url('utopia-semibold.eot') format('embedded-opentype'),
+         url('utopia-semibold.woff') format('woff'),
+         url('utopia-semibold.ttf') format('truetype'),
+         url('utopia-semibold.svg#UtopiaSemiBoldSemiBold') format('svg');
+}
